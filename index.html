@@ -21,25 +21,58 @@
       <div>
         <h1 class="text-center">Samu Uunonen</h1>
       </div>
-      <nav class="d-flex gap-3 gap-sm-3 flex-wrap mb-1">
-        <a href="#projects">Projektit</a>
-        <a href="#contact">Ota yhteyttä</a>
-      </nav>
     </header>
     <main>
-      <div class="container d-flex flex-column gap-3">
-        <div class="bg-1 p-2 border-radius-2">
-          <h2>Moro, olen Samu Nokialta.</h2>
-          <p class="fs-3">
-            Kehitän web sovelluksia ja nettisivuja. Puhun asiakkaiden kanssa
-            ymmärrettävää kieltä tekniikka jargonin sijaan. Parhaimmat työkaluni
-            ovat React ja Firebase.
-          </p>
-        </div>
-        <section class="container" id="projects">
-          <h2 class="mb-1">Projektit</h2>
+      <div class="container d-flex flex-column gap-2">
+        <section class="d-flex flex-column gap-3">
+          <div class="bg-1 p-2 border-radius-2">
+            <h2>Moro, olen Samu Nokialta.</h2>
+            <div class="fs-3">
+              <p>
+                Kehitän web sovelluksia ja nettisivuja. Kommunikoin selvällä
+                kielellä niin, että kaikki pysyvät kärryillä. Parhaimmat
+                työkaluni ovat React ja Firebase.
+              </p>
+              <p>
+                Teen töitä entisen metsäammattilaisen työmoraalilla. Kanssani
+                työskennellessä voi luottaa siihen, että sovitut työt tulee
+                valmiiksi ajallaan.
+              </p>
+              <div class="d-flex gap-2 mt-2">
+                <p class="fs-3">Mut löytää</p>
+                <div>
+                  <a
+                    href="https://www.linkedin.com/in/samu-uunonen/"
+                    target="_blank"
+                  >
+                    <img
+                      src="assets/icons/linkedin.svg"
+                      alt="linkedin logo"
+                      height="35"
+                      width="35"
+                    />
+                    <span class="d-none">LinkedIn profiili</span>
+                  </a>
+                </div>
+                <div>
+                  <a href="https://github.com/masterSamu" target="_blank">
+                    <img
+                      src="assets/icons/github.svg"
+                      alt="github logo"
+                      height="35"
+                      width="35"
+                    />
+                    <span class="d-none">Github profiili</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
 
-          <div class="d-flex flex-md-column-reverse gap-3">
+        <section class="container d-flex flex-column gap-2" id="projects">
+          <h2 class="mb-0">Projektit</h2>
+          <div class="d-flex flex-md-column-reverse gap-2">
             <div class="d-flex jcc">
               <img
                 src="assets/sovellus-puhelimessa.png"
@@ -48,7 +81,7 @@
                 width="325"
               />
             </div>
-            <div class="">
+            <div>
               <h3>Kids & Friends</h3>
               <p>
                 Maksullinen alusta sovellus missä perheet voivat verkostoitua
@@ -84,9 +117,7 @@
             </div>
           </div>
 
-          <hr class="m-2" />
-
-          <div class="d-flex flex-md-column-reverse gap-3">
+          <div class="d-flex flex-md-column-reverse gap-2">
             <div class="d-flex jcc">
               <img
                 src="assets/local-sights-logo.png"
@@ -104,7 +135,8 @@
               <p>
                 Kirjautuneena käyttäjä voi lisätä uusia nähtävyyksiä. Projekti
                 on toteutettu Fullstack Open 2022 kurssin projektityönä. Tein
-                projektin Reactilla ja käytin Firebasea backendinä.
+                projektin Reactilla ja käytin Firebasea backendinä. Käyttäjä voi
+                tarkastella sijaintia Mapbox kartalta.
               </p>
 
               <div class="d-flex flex-column gap-1 mt-2">
@@ -134,16 +166,6 @@
                 <span class="badge bg-black">Mapbox</span>
               </div>
             </div>
-          </div>
-        </section>
-
-        <section id="contact">
-          <div class="d-flex gap-2 aic">
-            <h2>Ota yhteyttä</h2>
-            <a href="https://www.linkedin.com/in/samu-uunonen/">
-              <img src="assets/icons/linkedin.svg" alt="linkedin logo">
-              <span class="d-none">LinkedIn profiili</span>
-          </a>
           </div>
         </section>
       </div>
