@@ -149,11 +149,14 @@ p {
 .bg-black {
   background-color: #393e46;
 }
-.bg-danger {
+.bg-red {
   background-color: #e0144c;
 }
-.bg-warning {
+.bg-yellow {
   background-color: #ffe15d;
+}
+.bg-green {
+  background-color: #68B984;
 }
 
 .text-center {
@@ -182,16 +185,35 @@ p {
 .badge.bg-2 {
   color: #fff;
 }
+.badge.bg-3 {
+  color: #000;
+}
 
-.badge.bg-danger {
+.badge.bg-red {
   color: #fff;
 }
 .badge.bg-black {
   color: #fff;
 }
 
+.badge.bg-green {
+  color: #000;
+}
+
 .text-white {
   color: #fff;
+}
+
+.text-middle {
+  vertical-align: middle !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.d-none {
+  display: none;
 }
 
 @media only screen and (max-width: 576px) {
