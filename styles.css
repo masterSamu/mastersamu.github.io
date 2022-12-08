@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0.5em 0;
+}
+
+h2 {
+  font-size: 2em;
+  margin: 0.4em 0;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin: 0.38em 0;
+}
+
+p {
+  margin: 0.35em 0;
+}
+
+.btn {
+  padding: 0.65em 1.5em;
+  border-radius: 0.75em;
+  border-style: none;
+  cursor: pointer;
+}
+
+.btn-1 {
+  background-color: #b9e0ff;
+  border-color: #5cb2f8;
+  color: black !important;
+}
+
+.btn-1:hover {
+  background-color: #5cb2f8;
+}
+
+.container {
+  margin: 1em;
+  padding: 1em;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.gap-1 {
+  gap: 0.75em;
+}
+.gap-2 {
+  gap: 1.5em;
+}
+.gap-3 {
+  gap: 3em;
+}
+
+.fs-3 {
+  font-size: 1.4rem;
+}
+
+.m-0 {
+  margin: 0;
+}
+.m-1 {
+  margin: 1em;
+}
+.m-2 {
+  margin: 1.5em;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+.mt-1 {
+  margin-top: 1em;
+}
+.mt-2 {
+  margin-top: 1.5em;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+.mb-1 {
+  margin-bottom: 1em;
+}
+.mb-2 {
+  margin-bottom: 1.5em;
+}
+
+.ms-0 {
+  margin-left: 0;
+}
+.ms-1 {
+  margin-left: 0.5em;
+}
+.ms-2 {
+  margin-left: 1em;
+}
+
+.p-0 {
+  padding: 0;
+}
+
+.p-1 {
+  padding: 1em;
+}
+
+.p-2 {
+  padding: 2em;
+}
+
+.p-3 {
+  padding: 3em;
+}
+
+.bg-1 {
+  background-color: #b9e0ff;
+}
+.bg-2 {
+  background-color: #6c4ab6;
+}
+.bg-3 {
+  background-color: #61dbfb;
+}
+.bg-black {
+  background-color: #393e46;
+}
+.bg-red {
+  background-color: #e0144c;
+}
+.bg-yellow {
+  background-color: #ffe15d;
+}
+.bg-green {
+  background-color: #68B984;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.border-radius-1 {
+  border-radius: 0.5em;
+}
+.border-radius-2 {
+  border-radius: 0.75em;
+}
+.border-radius-3 {
+  border-radius: 1em;
+}
+
+.mw-100 {
+  max-width: 100% !important;
+}
+
+.badge {
+  padding: 0.35em 1em;
+  border-radius: 0.4em;
+  font-size: 0.9rem;
+}
+
+.badge.bg-2 {
+  color: #fff;
+}
+.badge.bg-3 {
+  color: #000;
+}
+
+.badge.bg-red {
+  color: #fff;
+}
+.badge.bg-black {
+  color: #fff;
+}
+
+.badge.bg-green {
+  color: #000;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-middle {
+  vertical-align: middle !important;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.d-none {
+  display: none;
+}
+
+@media only screen and (max-width: 576px) {
+  .container {
+    margin: 0.3em;
+    padding: 0.3em;
+  }
+
+  .flex-sm-column {
+    flex-direction: column;
+  }
+  .flex-sm-column-reverse {
+    flex-direction: column-reverse;
+  }
+
+  .gap-sm-3 {
+    gap: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 756px) {
+  .flex-md-column {
+    flex-direction: column;
+  }
+  .flex-md-column-reverse {
+    flex-direction: column-reverse;
+  }
+}
