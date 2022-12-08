@@ -141,16 +141,19 @@ p {
   background-color: #b9e0ff;
 }
 .bg-2 {
-  background-color: #6C4AB6;
+  background-color: #6c4ab6;
 }
 .bg-3 {
-  background-color: #61DBFB;
+  background-color: #61dbfb;
+}
+.bg-black {
+  background-color: #393e46;
 }
 .bg-danger {
-  background-color: #E0144C;
+  background-color: #e0144c;
 }
 .bg-warning {
-  background-color: #FFE15D;
+  background-color: #ffe15d;
 }
 
 .text-center {
@@ -173,19 +176,22 @@ p {
 
 .badge {
   padding: 0.35em 1em;
-  border-radius: 0.75em;
+  border-radius: 0.4em;
 }
 
 .badge.bg-2 {
-    color: #FFF;
+  color: #fff;
 }
 
 .badge.bg-danger {
-    color: #FFF;
+  color: #fff;
+}
+.badge.bg-black {
+  color: #fff;
 }
 
 .text-white {
-    color: #FFF;
+  color: #fff;
 }
 
 @media only screen and (max-width: 576px) {
@@ -211,10 +217,10 @@ p {
 }
 
 @media only screen and (max-width: 756px) {
-    .flex-md-column {
-        flex-direction: column;
-    }
-    .flex-md-column-reverse {
-        flex-direction: column-reverse;
-    }
+  .flex-md-column {
+    flex-direction: column;
+  }
+  .flex-md-column-reverse {
+    flex-direction: column-reverse;
+  }
 }
