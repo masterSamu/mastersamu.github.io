@@ -1,3 +1,23 @@
+/* 
+  @author Samu Uunonen
+  Portfolio site design system
+*/
+
+/* 
+  Color variables
+*/
+:root {
+  --color1: #b9e0ff;
+  --color2: #6c4ab6;
+  --color3: #61dbfb;
+  --black: #393e46;
+  --red: #e0144c;
+  --yellow: #ffe15d;
+  --green: #68b984;
+  --blue: #5cb2f8;
+  --lightblue: #b9e0ff;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -10,36 +30,90 @@ h1 {
   font-size: 3em;
   margin: 0.5em 0;
 }
-
 h2 {
   font-size: 2em;
   margin: 0.4em 0;
 }
-
 h3 {
   font-size: 1.5em;
   margin: 0.38em 0;
 }
 
 p {
-  margin: 0.35em 0;
+  margin: 0.4em 0;
+}
+
+/* 
+  Custom classes
+*/
+
+.badge {
+  padding: 0.35em 1em;
+  border-radius: 0.4em;
+  font-size: 0.9rem;
+}
+.badge.bg-2 {
+  color: #fff;
+}
+.badge.bg-3 {
+  color: #000;
+}
+.badge.bg-red {
+  color: #fff;
+}
+.badge.bg-black {
+  color: #fff;
+}
+
+.badge.bg-green {
+  color: #000;
+}
+
+.bg-1 {
+  background-color: var(--color1);
+}
+.bg-2 {
+  background-color: var(--color2);
+}
+.bg-3 {
+  background-color: var(--color3);
+}
+.bg-black {
+  background-color: var(--black);
+}
+.bg-red {
+  background-color: var(--red);
+}
+.bg-yellow {
+  background-color: var(--yellow);
+}
+.bg-green {
+  background-color: var(--green);
+}
+
+.border-radius-1 {
+  border-radius: 0.5em;
+}
+.border-radius-2 {
+  border-radius: 0.75em;
+}
+.border-radius-3 {
+  border-radius: 1em;
 }
 
 .btn {
   padding: 0.65em 1.5em;
-  border-radius: 0.75em;
-  border-style: none;
+  border-radius: 0.5em;
+  border-style: solid;
   cursor: pointer;
 }
-
 .btn-1 {
-  background-color: #b9e0ff;
-  border-color: #5cb2f8;
+  background-color: var(--lightblue);
+  border-color: var(--blue);
   color: black !important;
 }
-
 .btn-1:hover {
-  background-color: #5cb2f8;
+  background-color: var(--blue);
 }
 
 .container {
@@ -52,23 +126,18 @@ p {
 .d-flex {
   display: flex;
 }
-
 .flex-column {
   flex-direction: column;
 }
-
 .flex-wrap {
   flex-wrap: wrap;
 }
-
 .aic {
   align-items: center;
 }
-
 .jcc {
   justify-content: center;
 }
-
 .gap-1 {
   gap: 0.75em;
 }
@@ -79,6 +148,15 @@ p {
   gap: 3em;
 }
 
+.fs-small {
+  font-size: 0.75rem;
+}
+.fs-1 {
+  font-size: 1rem;
+}
+.fs-2 {
+  font-size: 1.2rem;
+}
 .fs-3 {
   font-size: 1.4rem;
 }
@@ -92,7 +170,6 @@ p {
 .m-2 {
   margin: 1.5em;
 }
-
 .mt-0 {
   margin-top: 0;
 }
@@ -102,7 +179,6 @@ p {
 .mt-2 {
   margin-top: 1.5em;
 }
-
 .mb-0 {
   margin-bottom: 0;
 }
@@ -112,7 +188,6 @@ p {
 .mb-2 {
   margin-bottom: 1.5em;
 }
-
 .ms-0 {
   margin-left: 0;
 }
@@ -126,89 +201,42 @@ p {
 .p-0 {
   padding: 0;
 }
-
 .p-1 {
   padding: 1em;
 }
-
 .p-2 {
   padding: 2em;
 }
-
 .p-3 {
   padding: 3em;
 }
 
-.bg-1 {
-  background-color: #b9e0ff;
-}
-.bg-2 {
-  background-color: #6c4ab6;
-}
-.bg-3 {
-  background-color: #61dbfb;
-}
-.bg-black {
-  background-color: #393e46;
-}
-.bg-red {
-  background-color: #e0144c;
-}
-.bg-yellow {
-  background-color: #ffe15d;
-}
-.bg-green {
-  background-color: #68B984;
-}
 
-.text-center {
-  text-align: center;
+.mw-50 {
+  max-width: 50% !important;
 }
-
-.border-radius-1 {
-  border-radius: 0.5em;
+.mw-80 {
+  max-width: 80% !important;
 }
-.border-radius-2 {
-  border-radius: 0.75em;
-}
-.border-radius-3 {
-  border-radius: 1em;
-}
-
 .mw-100 {
   max-width: 100% !important;
 }
 
-.badge {
-  padding: 0.35em 1em;
-  border-radius: 0.4em;
-  font-size: 0.9rem;
-}
 
-.badge.bg-2 {
-  color: #fff;
+.text-center {
+  text-align: center;
 }
-.badge.bg-3 {
+.text-middle {
+  vertical-align: middle !important;
+}
+.text-black {
   color: #000;
 }
-
-.badge.bg-red {
-  color: #fff;
-}
-.badge.bg-black {
-  color: #fff;
-}
-
-.badge.bg-green {
-  color: #000;
-}
-
 .text-white {
   color: #fff;
 }
-
-.text-middle {
-  vertical-align: middle !important;
+.text-decoration-none {
+  text-decoration: none !important;
 }
 
 .hidden {
