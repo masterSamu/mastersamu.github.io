@@ -235,6 +235,9 @@ p {
 .text-white {
   color: #fff;
 }
+.text-muted {
+  color: #73777B;
+}
 .text-decoration-none {
   text-decoration: none !important;
 }
